@@ -65,7 +65,6 @@ a, h1{
 }
 #contact{
   background: url("./images/letter.jpeg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,8 +91,11 @@ a, h1{
   height: 300px;
   width: 600px;
 }
-#thankyou-message{
+#thankyou_message, #email-invalid{
   display: none;
+}
+#gform{
+  display: block;
 }
 
 #form-container{
