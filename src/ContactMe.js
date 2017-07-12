@@ -52,11 +52,7 @@ class ContactMe extends Component {
             </form>
 
           </div>
-
-          
         </div>
-
-
       </div>
     )
   }

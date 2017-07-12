@@ -4,8 +4,9 @@ import Coverflow from 'react-coverflow';
 class Carousel extends Component {
   render() {
     return (
-      <div>
-      <Coverflow width={1100} height={300} displayQuantityOfSide={1} navigation={false} enableHeading={false} enableScroll={true} >
+      <div id="carousel" >
+        <h1 id="carousel-header">Here are some pictures that I've taken!</h1>
+        <Coverflow width={1100} height={300} displayQuantityOfSide={1} navigation={false} enableHeading={false} enableScroll={true} >
 
           <img src="http://i.imgur.com/nAycx5W.jpg" alt=""/>
           <img src="http://i.imgur.com/78Txyzm.jpg" alt=""/>

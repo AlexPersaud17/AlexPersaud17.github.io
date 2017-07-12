@@ -50,15 +50,13 @@ a, h1{
   height: 600px;
 }
 #about{
-  background: url("./images/moontree.jpeg");
-  background-attachment: fixed;
-  background-position: center;
+  background: url("./images/empirestate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 1000px;
 }
 #resume{
-  background: url("./images/sunglasses.jpeg");
+  background: url("./images/sunset.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,4 +103,21 @@ a, h1{
 }
 #form-header{
   color: black;  
+}
+#about-me-typing{
+  width: 40%;
+}
+#about-me-header{
+  color: black;
+}
+#about-me-bio{
+  width: 45%;
+  float: right;
+}
+#carousel{
+  padding-top: 100px;
+}
+#carousel-header{
+  color: black;
+  text-align: center;
 }
