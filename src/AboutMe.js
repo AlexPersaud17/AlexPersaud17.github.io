@@ -12,6 +12,7 @@ class AboutMe extends Component {
           <h1 id="about-me-header"> Hey that's me</h1>
           <img src={ProfilePic} alt="Hard At Work" id="about-me-profile-pic"/>
           <div id="about-me-bio">
+            
             <h2>This is in the 3rd person because, well, it make's it easier for you to talk about me if you just memorize this word for word.</h2>
 
             <p>Alex was born in the summer-ish of 1994, in the melting pot that is Queens, in the greatest city in the world. Pretty normal childhood, nothing out of the ordinary. Alex was first introduced to a computer language in a mandatory elective in high school, and few years later in his academic career, Alex realized that he had a knack for typing words on a screen and making them come to life through the magic that is computer programming.</p>
