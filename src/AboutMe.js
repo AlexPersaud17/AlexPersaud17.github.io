@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from './Carousel.js';
-import HardAtWork from './images/hardatwork.jpg'
+import ProfilePic from './images/profilepic.jpg'
 class AboutMe extends Component {
   render(){
     return(
@@ -10,7 +10,7 @@ class AboutMe extends Component {
         </div>
         <div id="about">
           <h1 id="about-me-header"> Hey that's me</h1>
-          <img src={HardAtWork} alt="Hard At Work" id="about-me-typing"/>
+          <img src={ProfilePic} alt="Hard At Work" id="about-me-profile-pic"/>
           <div id="about-me-bio">
             <h2>This is in the 3rd person because, well, it make's it easier for you to talk about me if you just memorize this word for word.</h2>
 

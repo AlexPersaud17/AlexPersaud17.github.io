@@ -6,7 +6,7 @@ class Carousel extends Component {
     return (
       <div id="carousel" >
         <h1 id="carousel-header">Here are some pictures that I've taken!</h1>
-        <Coverflow width={1100} height={300} displayQuantityOfSide={1} navigation={false} enableHeading={false} enableScroll={true} >
+        <Coverflow width={1100} height={300} displayQuantityOfSide={1} navigation={false} enableHeading={false} enableScroll={true} id='coverflow' >
 
           <img src="http://i.imgur.com/nAycx5W.jpg" alt=""/>
           <img src="http://i.imgur.com/78Txyzm.jpg" alt=""/>
