@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+  import React, { Component } from 'react';
 
 class Resume extends Component {
   constructor(){
     super()
     this.state = {
-      imgSrc1: "http://i.imgur.com/0qy2xFL.jpg",
-      imgSrc2: "http://i.imgur.com/2jRpeek.jpg",
-      imgSrc3: "http://i.imgur.com/CMfNGUC.jpg",
-      imgSrc4: "http://i.imgur.com/2EdMdJk.jpg"
+      imgSrc1: "http://i.imgur.com/jjMDpDT.gif",
+      imgSrc2: "http://i.imgur.com/B4idh6z.gif",
+      imgSrc3: "http://i.imgur.com/nk2RtWQ.gif",
+      imgSrc4: "http://i.imgur.com/RrgRfHA.gif"
     }
     this.handleMouseOver = this.handleMouseOver.bind(this);
     this.handleMouseOut = this.handleMouseOut.bind(this);
@@ -30,22 +30,22 @@ class Resume extends Component {
         <div id="resume">
 
           <div className="project">
-            <h1>Popp'n</h1>
+            <a href="https://poppn.herokuapp.com/"><h1>Popp'n</h1></a>
             <img className="project-gif" onMouseOver={this.handleMouseOver(this)} onMouseOut={this.handleMouseOut(this)} src={this.state.imgSrc1} alt=""/>
           </div>
 
           <div className="project">
-            <h1>PickYourPoison</h1>
-            <img className="project-gif" onMouseOver={this.handleMouseOver(this)} onMouseOut={this.handleMouseOut(this)} src={this.state.imgSrc2} alt=""/>
+            <a href="https://pickyourpoison.herokuapp.com/"><h1>PickYourPoison</h1></a>
+            <img className="project-gif" onMouseOver={this.handleMouseOver(this)} onMouseOut={this.handleMouseOut(this)} src={this.state.imgSrc2} alt="" />
           </div>
 
           <div className="project">
-            <h1>LaboratoryRetrievers</h1>
+            <a href="https://github.com/AlexPersaud17/Laboratory-Retrievers"><h1>LaboratoryRetrievers</h1></a>
             <img className="project-gif" onMouseOver={this.handleMouseOver(this)} onMouseOut={this.handleMouseOut(this)} src={this.state.imgSrc3} alt=""/>
           </div>
 
           <div className="project">
-            <h1>Fooji</h1>
+            <a href="https://www.facebook.com/Fooji-322635284834012/"><h1>Fooji</h1></a>
             <img className="project-gif" onMouseOver={this.handleMouseOver(this)} onMouseOut={this.handleMouseOut(this)} src={this.state.imgSrc4} alt=""/>
           </div>
 

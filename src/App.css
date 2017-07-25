@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
   font-family: 'Poppins', sans-serif;
   margin: 0px;
@@ -42,12 +45,11 @@ a, h1{
 
 #landing{
   padding-top: 50px;
-  background: url("./images/mountains.jpeg");
+  background: url("./images/hardatwork.JPG");
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 1000px;
 }
 #about{
   background: url("./images/empirestate.jpg");
@@ -106,8 +108,8 @@ a, h1{
 #form-header{
   color: black;  
 }
-#about-me-typing{
-  width: 40%;
+#about-me-profile-pic{
+  width: 30%;
 }
 #about-me-header{
   color: black;
@@ -122,4 +124,44 @@ a, h1{
 #carousel-header{
   color: black;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  #nav-bar{
+    display: none;
+  }
+  #carousel{
+    display: none;
+  }
+  .project-gif{
+    width: 90%;
+    height: auto;
+  }
+  #resume{
+    height: 1000px;
+  }
+  #landing{
+    background-size: 400px;
+    height: 300px;
+  }
+  #landing-text{
+    margin-top: 100px;
+  }
+  #about{
+    background-size: 400px;
+    height: 700px;
+    text-align: center;
+
+  }
+  #about-me-bio{
+    width: 100%;
+    float: none;
+  }
+  #contact{
+    background-size: 500px 600px;
+    background-position: center;
+  }
+  #form-container{
+    padding-top: 150px;
+  }  
 }

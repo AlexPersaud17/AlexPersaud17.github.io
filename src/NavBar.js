@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class NavBar extends Component {
   render(){
     return(
-      <div>
+      <div id='nav-bar'>
         <header>
           <nav>
             <a className="tabs" href="#contact-text">Contact Me!</a>
