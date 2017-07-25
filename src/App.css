@@ -45,7 +45,7 @@ a, h1{
 
 #landing{
   padding-top: 50px;
-  background: url("./images/hardatwork.JPG");
+  background: url("./images/hardatwork.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -163,5 +163,9 @@ a, h1{
   }
   #form-container{
     padding-top: 150px;
+    padding-left: 12%;
   }  
+  .form-control{
+    width: 250px;
+  }
 }
