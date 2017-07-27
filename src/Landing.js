@@ -6,8 +6,9 @@ class Landing extends Component {
       <div>
         <div id="landing">
           <div id="landing-text">
-            <h1>Alex Persaud</h1>
-            <a href="#about-text">Check Me Out</a>
+            <h1>alex persaud</h1>
+            <h2>full stack pancake eater</h2>
+            <h3>(and developer too!)</h3>
           </div>
         </div>
       </div>

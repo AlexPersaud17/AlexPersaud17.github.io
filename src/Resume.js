@@ -70,7 +70,7 @@ class Resume extends Component {
             <img id='port-pic-3' className="project-gif" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc3} alt=""/>
           </div></a>
 
-          <a href="https://www.facebook.com/Fooji-322635284834012/"><div className="project">
+          <a href="https://www.facebook.com/Foooji-322635284834012/"><div className="project">
             <h1>Fooji</h1>
             <img id='port-pic-4' className="project-gif" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut}  src={this.state.imgSrc4} alt=""/>
           </div></a>
