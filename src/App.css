@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   margin: 0px;
 }
 body, html {
@@ -27,29 +27,33 @@ a, h1{
 }
 
 #landing-text{
-  margin-top: 330px;
+  margin-top: 200px;
+  margin-left: 10%;
 }
 
-.section-container{
-  height: 60px;
-  line-height: 60px;
-  vertical-align: middle;
-  background-color: black;
-  text-align: center;
-  margin-top: -25px;
-  margin-bottom: -25px;
-}
-.section-text{
-  font-size: 24px;
-}   
 
 #landing{
   padding-top: 50px;
-  background: url("./images/hackathon.jpg");
+  background: url("./images/landingpic.JPG");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
+}
+#landing h1{
+  font-family: 'Flamenco', cursive;
+  font-size: 100px;
+  color: white;
+}
+#landing h2{
+  font-family: 'Flamenco', cursive;
+  font-size: 48px;
+  color: white;
+}
+#landing h3{
+  font-family: 'Flamenco', cursive;
+  font-size: 30px;
+  color: white;
 }
 #about{
   background: url("./images/empirestate.jpg");
@@ -72,17 +76,18 @@ a, h1{
   background-size: cover;
   height: 600px;
 }
-#landing h1{
-  font-size: 40px;
-  color: white;
-}
-#landing a{
-  font-size: 24px;
-  text-decoration: none;  
-}
-#landing{
+.section-container{
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  background-color: black;
   text-align: center;
+  margin-top: -25px;
+  margin-bottom: -25px;
 }
+.section-text{
+  font-size: 24px;
+}   
 
 .project{
   float: left;
