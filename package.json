@@ -1,5 +1,5 @@
 {
-  "name": "AlexPersaud17.github.io",
+  "name": "alexpersaudgithub",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,5 +19,16 @@
   "homepage": "https://alexpersaud17.github.io/",
   "devDependencies": {
     "gh-pages": "^1.0.0"
+  },
+  "description": "",
+  "main": "service-worker.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexPersaud17/AlexPersaud17.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexPersaud17/AlexPersaud17.github.io/issues"
   }
 }
