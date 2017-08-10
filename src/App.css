@@ -16,6 +16,13 @@ header{
   vertical-align: middle;
   background-color: rgba(0, 0, 0, 0.5);
 }
+#nav-logo{
+  float: left;
+  width: 200px;
+  padding: 15px;
+  margin: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 a, h1{
   color: white;
 }
@@ -29,6 +36,7 @@ a, h1{
 #landing-text{
   margin-top: 200px;
   margin-left: 10%;
+  position: fixed;
 }
 
 
