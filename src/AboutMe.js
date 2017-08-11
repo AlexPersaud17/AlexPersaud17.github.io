@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from './Carousel.js';
-import LogoBW from './images/logo_bw.png'
+import LogoBW from './images/logo_b.png'
 class AboutMe extends Component {
   render(){
     return(
@@ -9,7 +9,6 @@ class AboutMe extends Component {
           <h1 className="section-text">About Me</h1>
         </div>
         <div id="about">
-   
           <img src={LogoBW} id="logo-bw"/>
           <div id="about-me-bio">
             
